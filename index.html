@@ -19,65 +19,87 @@
 <div class="container-fluid">
     <div class="row min-vh-100">
 
+        <!-- LEFT SIDEBAR -->
         <aside class="col-md-3 col-lg-2 bg-dark text-white p-3">
 
             <div class="text-center py-3 mb-4">
-                <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3"
-                    style="width:90px;height:90px;">
-                    <i class="bi bi-person-fill fs-1"></i>
-                </div>
+
+                <img src="girl.png"
+                    width="90"
+                    height="90"
+                    class="rounded-circle mb-3"
+                    alt="Profile">
 
                 <h4 id="name"></h4>
-                <p id="role" class="small text-secondary mb-0"></p>
+
+                <p id="role"
+                    class="small text-secondary mb-0">
+                </p>
+
             </div>
 
+
+            <!-- MENU -->
             <div class="nav nav-pills flex-column gap-2">
 
                 <button class="nav-link active text-start"
                     onclick="openPage('home',this)">
-                    <i class="bi bi-house me-2"></i>Dashboard
+                    <i class="bi bi-house me-2"></i>
+                    Dashboard
                 </button>
 
                 <button class="nav-link text-white text-start"
                     onclick="openPage('about',this)">
-                    <i class="bi bi-person me-2"></i>About Me
+                    <i class="bi bi-person me-2"></i>
+                    About Me
                 </button>
 
                 <button class="nav-link text-white text-start"
                     onclick="openPage('skills',this)">
-                    <i class="bi bi-code-slash me-2"></i>Skills
+                    <i class="bi bi-code-slash me-2"></i>
+                    Skills
                 </button>
 
                 <button class="nav-link text-white text-start"
                     onclick="openPage('education',this)">
-                    <i class="bi bi-mortarboard me-2"></i>Education
+                    <i class="bi bi-mortarboard me-2"></i>
+                    Education
                 </button>
 
                 <button class="nav-link text-white text-start"
                     onclick="openPage('experience',this)">
-                    <i class="bi bi-briefcase me-2"></i>Experience
+                    <i class="bi bi-briefcase me-2"></i>
+                    Experience
                 </button>
 
                 <button class="nav-link text-white text-start"
                     onclick="openPage('projects',this)">
-                    <i class="bi bi-folder me-2"></i>Projects
+                    <i class="bi bi-folder me-2"></i>
+                    Projects
                 </button>
 
                 <button class="nav-link text-white text-start"
                     onclick="openPage('certificates',this)">
-                    <i class="bi bi-award me-2"></i>Certificates
+                    <i class="bi bi-award me-2"></i>
+                    Certificates
                 </button>
 
                 <button class="nav-link text-white text-start"
                     onclick="openPage('contact',this)">
-                    <i class="bi bi-envelope me-2"></i>Contact
+                    <i class="bi bi-envelope me-2"></i>
+                    Contact
                 </button>
 
             </div>
+
         </aside>
 
+
+        <!-- RIGHT SIDE -->
         <main class="col-md-9 col-lg-10 p-4 p-lg-5">
+
             <div id="content"></div>
+
         </main>
 
     </div>
